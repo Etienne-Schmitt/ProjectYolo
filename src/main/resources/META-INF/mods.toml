@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "All rights reserved"
+
+[[mods]]
+modId = "projectyolo"
+version = "${file.jarVersion}"
+displayName = "Project Yolo"
+authors = "Syrgoma"
+description = '''
+This mods add various thing to minecraft.
+
+I use this mod to learn modding
+'''
+
+[[dependencies.projectyolo]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.projectyolo]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16,1.65.5)"
+ordering = "NONE"
+side = "BOTH"
